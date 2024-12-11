@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!--ANATOMIA DE TABELAS GRANDES
+    table
+        thead = cabeça da tabela
+            posso ter (tr, td, th)
+        tbody = corpo da tabela
+            posso ter (tr, td, th)
+        tfoot = roda pé da tabela
+            posso ter (tr, td, th)
+    -->
+    <table>
+        <thead>
+            <th>Estado</th>
+            <th>População</th>
+        
+        </thead>
+        <tbody>
+            <td>São Paulo</td>
+            <td class="num">45.919.049</td>
+        </tbody>
+        <tbody>
+            <td>Minas Gerais</td>
+            <td class="num">21.168.791</td>
+        </tbody>
+        <tbody>
+            <td>Rio de Janeiro</td>
+            <td class="num">17.264.943</td>
+        </tbody>
+        <tbody>
+            <td>Bahia</td>
+            <td class="num">14.876.064</td>
+        </tbody>
+        <tbody>
+            <td>Paraná</td>
+            <td class="num">11.433.957</td>
+        </tbody>
+        <tbody>
+            <td>Rio Grande do Sul</td>
+            <td class="num">11.377.239</td>
+        </tbody>
+        <tbody>
+            <td>Pernambuco</td>
+            <td class="num">9.557.071</td>
+        </tbody>
+        <tbody>
+            <td>Ceará</td>
+            <td class="num">9.132.078</td>
+        </tbody>
+        <tbody>
+            <td>Pará</td>
+            <td class="num">8.602.865</td>
+        </tbody>
+        <tbody>
+            <td>Santa Catarina</td>
+            <td class="num">7.164.788</td>
+        </tbody>
+        <tbody>
+            <td>Maranhão</td>
+            <td class="num">7.075.181</td>
+        </tbody>
+        <tbody>
+            <td>Goiás</td>
+            <td class="num">7.183.545</td>
+        </tbody>
+        <tbody>
+            <td>Amazonas</td>
+            <td class="num">4.144.597</td>
+        </tbody>
+        <tbody>
+            <td>Espirito Santo</td>
+            <td class="num">4.018.650</td>
+        </tbody>
+        <tbody>
+            <td>Paraíba</td>
+            <td class="num">4.018.127</td>
+        </tbody>
+        <tbody>
+            <td>Rio Grande do Norte</td>
+            <td class="num">3.506.853</td>
+        </tbody>
+        <tbody>
+            <td>Mato Grande</td>
+            <td class="num">3.484.853</td>
+        </tbody>
+        <tbody>
+            <td>Alagoas</td>
+            <td class="num">3.337.357</td>
+        </tbody>
+        <tbody>
+            <td>Piauí</td>
+            <td class="num">3.273.227</td>
+        </tbody>
+        <tbody>
+            <td>Distrito Federal</td>
+            <td class="num">3.015.268</td>
+        </tbody>
+        <tbody>
+            <td>Mato Grosso do Sul</td>
+            <td class="num">2.778.986</td>
+        </tbody>
+        <tbody>
+            <td>Sergipe</td>
+            <td class="num">2.298.696</td>
+        </tbody>
+        <tbody>
+            <td>Rondonia</td>
+            <td class="num">1.777.225</td>
+        </tbody>
+        <tbody>
+            <td>Tocantins</td>
+            <td class="num">1.572.866</td>
+        </tbody>
+        <tbody>
+            <td>Acre</td>
+            <td class="num">881.835</td>
+        </tbody>
+        <tbody>
+            <td>Amapá</td>
+            <td class="num">845.731</td>
+        </tbody>
+        <tbody>
+            <td>Roraima</td>
+            <td class="num">605.761</td>
+        </tbody>
+
+
+        <tfoot>
+            <th>Total de Habitantes</th>
+            <td class="num"><strong>210.147.125</strong></td>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
